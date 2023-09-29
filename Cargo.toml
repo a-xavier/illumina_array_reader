@@ -1,0 +1,10 @@
+[package]
+name = "illumina_array_reader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flate2 = "1.0.27"
+polars = { version = "0.33.2", features = ["dtype-u16", "dtype-u8"]}
