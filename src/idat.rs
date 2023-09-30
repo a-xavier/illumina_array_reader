@@ -157,6 +157,10 @@ impl Idat {
         // 10 - RED GREEN ? Always zero?
         offset_offset  = get_offset_for_field(&code_str_vector, &offset_vector, "RedGreen");
         let _red_green = read_int(&full_binary, &mut offset_offset); //  Dot report ?
+
+        // Final step
+        self.processed = true;
+        
         return self
     }
 }
