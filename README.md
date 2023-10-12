@@ -85,3 +85,10 @@ MicroArray::from_base(all_idats[0]) = MicroArray {
 
 
 ```
+
+## To Do
+
+- Clean up the code and remove all ```.unwrap()``` calls -> Properly handle errors
+- Create Errors
+- Eliminate need for SD and N_Beads to reduce space
+- Set up tests
